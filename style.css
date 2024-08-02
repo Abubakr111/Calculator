@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(2, 12, 15);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    margin-top: 50px;
+}
+.display {
+    background-color: white;
+    padding: 30px 300px 30px 10px;
+    
+}
+
+.input-one {
+    margin-top: -7%;
+    display: flex;
+}
+.input-two  {
+    margin-top: -14%;
+    display: flex;
+    
+}
+.cancel {
+    color: white;
+    width: 50%;
+    background-color: rgb(231, 51, 28);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.value, .no-margin, .plus {
+    background-color: rgb(14, 50, 56);
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+.value, .no-margin {
+    padding: 20px 0px;
+}
+
+.input-3 {
+    margin-top: -14%;
+    display: flex;
+    position: relative;
+}
+.space-4 {
+    
+    margin-top: -13.7%;
+}
+.plus {
+    
+    padding: 55px 0px;
+    position: absolute;
+    right: 0px;
+    left: 74%;
+    border-left: 1px solid rgb(2, 12, 15);;
+}
+
+.value {
+    margin-left: 1px;
+}
+
+.equal {
+    background-color: rgb(245, 245, 23);
+}
